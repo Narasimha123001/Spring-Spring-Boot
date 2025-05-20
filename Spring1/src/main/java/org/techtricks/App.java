@@ -7,14 +7,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Hello world!
  *
  */
+
 public class App 
 {
     public static void main( String[] args )
 
 
     {
-
-
         //help to create a container
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 
